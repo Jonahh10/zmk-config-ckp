@@ -30,7 +30,7 @@
 		};
 		raise {
 			bindings = <
-				&rbg_ug RGB_TOG &rbg_ug RGB_EFF &rbg_ug RGB_HUI &rbg_ug RGB_SAI &rbg_ug RGB_SAD &rbg_ug RGB_SPI &rgb_ug RGB_SPD &trans &trans &trans &trans &trans &trans &trans &trans &BL_TOG
+				&rbg_ug RGB_TOG &rbg_ug RGB_EFF &rbg_ug RGB_HUI &rbg_ug RGB_SAI &rbg_ug RGB_SAD &rbg_ug RGB_SPI &rgb_ug RGB_SPD &trans &trans &trans &trans &trans &trans &trans &trans &bl BL_TOG
 				&bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &trans &trans &trans &trans &trans &trans   &trans   &trans  &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &reset &trans
 				&trans    &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans   &bootloader &trans
